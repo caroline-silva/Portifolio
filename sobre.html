@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sobre Caroline</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container-fluid" align="center" style="margin-bottom:0">
+    <h1>Caroline Aparecida Silva</h1>              
+  </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="./Pinicial.html" target="new">Início</a>
+      <a href="./sobre.html" target="new">Sobre</a>
+      <a href="./projeto.html" target="new">Projetos</a>
+      <a href="./curriculo.html" target="new">Currículo</a>
+      <a href="./contato.html" target="new">Contato</a>
+    </div>
+
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    </div>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2 align="center">Sobre mim</h2></br>
+      <div><img id="logo" src="eu.jpeg"></div></br>
+
+      <p align="justify">Olá, me chamo Caroline, tenho 19 anos, sou 
+        formada em Redes de Computadores pela Etec 
+        Sapopemba e atualmente curso Análise e 
+        Desenvolvimento de sistemas pela Fatec 
+        Ipiranga.</p></br>
+
+      <h3 align="center">Alguns links</h3></br>
+
+      <h5>Estudos:</h5>
+
+      <ul align="center" class="nav nav-pills flex-column">
+        <li  class="nav-item">
+          <a id="bottonsobre" class="nav-link" href="http://www.etecdesapopemba.com.br" target="new">Etec Sapopemba</a></br>
+        </li>
+        <li class="nav-item">
+          <a id="bottonsobre" class="nav-link" href="http://www.fatecipiranga.edu.br" target="new">Fatec Ipiranga</a></br></br>
+        </li>
+      </ul>
+
+      <h5>Trabalho Voluntáro:</h5>
+
+      <ul align="center" class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a id="bottonsobre" class="nav-link" href="https://www.amigosdobem.org/" target="new">Amigos do bem</a></br>
+        </li>
+        <li class="nav-item">
+          <a id="bottonsobre" class="nav-link" href="https://www.perseveranca.org.br/servico-social" target="new">Perseverança</a></br>
+        </li>
+      </ul>
+  </div>
+</div>
+
+
+
+
+<div class="container-fluid" align="center" style="margin-bottom:0">
+  <h5>Rua Eduardo Gutierrez, 123 A - Vila Cardoso Franco, São Paulo - SP, 03978-080</h5>
+  <h5>São Paulo, SP</h5>
+  <h5>2020</h5>              
+</div>
+
+</body>
+</html>
